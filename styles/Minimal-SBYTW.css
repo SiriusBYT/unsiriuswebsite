@@ -1,0 +1,14 @@
+/* Minimal CSS for Small Pages */
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+p {
+    font-weight: normal;
+}
