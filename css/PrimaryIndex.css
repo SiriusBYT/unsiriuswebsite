@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    animation-name: FadeFromTop;
+    animation-duration: 1s;
+    margin-top: 0vw;
+    display: block;
+    background-color: #F6F6F6;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10vw;
+}
+
+@media (max-width: 800px) {
+    body  {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    body  {
+        width: 60%;
+    }
+}
+
+.DesktopNAV {
+    width: auto;
+    height: 5vw;
+    margin-top: 1vw;
+}
+
+.NavLink {
+    float: left;
+    margin-left: 1vw;
+    margin-top: 0.5vw;
+    border: 0.1vw transparent black;
+    color: black;
+    width: 8vw;
+    padding: 1vw;
+    text-align: center;
+}
+
+.NavLink:hover {
+    background-color: #1090ff;
+    color: white;
+    animation-name: NavHover;
+    animation-duration: 100ms;
+}
+
+.NavSeparator {
+    float: left;
+    margin-left: 1vw;
+    margin-top: 0.5vw;
+    border: 0.1vw transparent black;
+    color: black;
+    width: 2vw;
+    padding: 1vw;
+    text-align: center;
+}
+
+.FrontBanner {
+    margin: auto;
+    width: 50%;
+}
+
+.NavBanner {
+    width: 17%;
+    float: left;
+    padding: auto;
+    margin: auto;
+}
+
+.BannerDIV {
+    margin-top: 5vw;
+}
+
+.BannerTitle {
+    float: none;
+    text-align: center;
+    margin: auto;
+}
+
+.BannerSubtitle {
+    float: right;
+    text-align: center;
+    margin: auto;
+}
+
+.BannerText {
+    float: right;
+    text-align: center;
+    margin: auto;
+}
+
+.BigButton {
+    margin: auto;
+    margin-top: 5vw;
+    color: black;
+    background-color: #FAFAFA;
+    width: 50%;
+    padding: 2%;
+    border: 0.5vw solid #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.BigButton:hover {
+    margin: auto;
+    margin-top: 5vw;
+    color: black;
+    background-color: #ffffff;
+    width: 50%;
+    padding: 2%;
+    border: 0.5vw solid #CFCFFF;
+    animation: ButtonHover 500ms;
+}
+
+.CC-Bottom {
+    color: #A0A0A0;
+    text-align: justify;
+    margin: auto;
+    margin-top: 5vw;
+
+} 
+
+@keyframes FadeFromTop {
+    0% {
+        margin-top: -2vw;
+        opacity: 0%;
+    }
+    100% {
+        margin-top: 0vw;
+        opacity: 100%;
+    }
+}
+
+@keyframes NavHover {
+    0% {
+        background-color: #ffffff;
+        color: black;
+    }
+    100% {
+        background-color: #1090ff;
+        color: white;
+    }
+}
+
+@keyframes ButtonHover {
+    0% {
+        background-color: #FAFAFA;
+        border: 0.5vw solid #ffffff;
+    }
+    100% {
+        background-color: #ffffff;
+        border: 0.5vw solid #CFCFFF;
+    }
+}
